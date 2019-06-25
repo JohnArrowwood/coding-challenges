@@ -5,6 +5,7 @@ def minimumSwaps(arr):
     swaps = 0
 
     # index the array so we can find values O(1)
+    # could add a duplicate check - but I'm not going to
     index_of = { x[1]: x[0] for x in enumerate(arr) }
 
     # n is the value we are trying to put into position i
