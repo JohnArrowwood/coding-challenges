@@ -43,8 +43,10 @@ one apart.  But the algorithm will handle the unexpected.
 
 ### Duplicate values
 
-The problem statement specifically says there are no duplicates.  But it only makes
-sense to enforce this.  While building the index dictionary, assert that the key
+The problem statement specifically says there are no duplicates.  But if you wanted
+to enforce this, then while building the index dictionary, assert that the key
 does not exist before you put it in there.
+
+I deliberately do not do this, but it would be easy enough to add.
 
 
